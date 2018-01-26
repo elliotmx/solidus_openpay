@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir['{app,config,models,db,lib}/**/*'] + %w(MIT-LICENSE Rakefile README.md)
 
-  s.add_dependency "solidus", "~> 1.2"
+  s.add_dependency "solidus", "~> 2.0"
 
   s.add_dependency 'oj'
   s.add_dependency 'faraday'
